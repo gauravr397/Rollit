@@ -33,6 +33,27 @@ public class MainActivity extends AppCompatActivity {
                 Random random = new Random();
                 int score = random.nextInt(6)+1;
                 textView.setText(String.valueOf(score));
+
+                switch (score){
+                    case 1:
+                        imageView.setImageResource(R.drawable.dice1);
+                        break;
+                    case 2:
+                        imageView.setImageResource(R.drawable.dice2);
+                        break;
+                    case 3:
+                        imageView.setImageResource(R.drawable.dice3);
+                        break;
+                    case 4:
+                        imageView.setImageResource(R.drawable.dice4);
+                        break;
+                    case 5:
+                        imageView.setImageResource(R.drawable.dice5);
+                        break;
+                    case 6:
+                        imageView.setImageResource(R.drawable.dice6);
+                        break;
+                }
             }
         });
     }

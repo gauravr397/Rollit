@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/scoreText"
         android:textSize="24sp"
-        android:textColor="@color/teal_200"/>
+        android:textColor="@color/teal_700"/>
     <ImageView
         android:layout_width="250dp"
         android:layout_height="250dp"
