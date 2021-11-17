@@ -1,4 +1,4 @@
-package com.example.rollit;
+package com.gauravr.rollit;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.rollit.R;
 
 import java.util.Random;
 
