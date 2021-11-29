@@ -1,26 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
+    android:background="@drawable/img"
     tools:context="com.gauravr.rollit.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/scoreText"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
         android:textSize="24sp"
-        android:textColor="@color/teal_700"/>
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:id="@+id/diceImage"/>
+        android:layout_alignParentTop="true"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scoreText"
+        android:gravity="center"
+        android:layout_above="@id/buttonToss">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:tintMode="src_in"
+            android:id="@+id/diceImage"
+            app:tint="@color/white">
+        </ImageView>
+    </LinearLayout>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonToss"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@color/teal_700"
+        android:layout_alignParentBottom="true"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp"
         android:text="ROLL"/>
-</LinearLayout>
+</RelativeLayout>
