@@ -11,7 +11,7 @@
 # Demo App
 
 <p align="center">
-  <a href="https://github.com/gauravr397/NewsShort/releases/download/v1.0/NewsShort.apk">
+  <a href="https://github.com/gauravr397/Rollit/releases/download/1.0/Rollit.apk">
     <img src="https://www.inspirefm.org/wp-content/uploads/button-apk.png" height="80">
   </a>
 </p>
